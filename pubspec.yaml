@@ -1,0 +1,105 @@
+name: vimogo
+description: A new Flutter project.
+
+
+
+publish_to: 'none' 
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_highlight: ^0.7.0
+  google_fonts: ^2.0.0
+  timeline_tile: ^2.0.0
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  lottie: ^1.2.1
+  jiffy: ^5.0.0
+  path_provider: ^2.0.11
+  flutter_material_color_picker: ^1.1.0+2
+  get: ^4.6.5
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ 
+    - assets/profile/
+    - assets/icons/
+    - assets/lottie/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+        - asset: assets/fonts/Nunito/Nunito-ExtraBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf   
+        - asset: assets/fonts/Montserrat/Montserrat-BoldItalic.ttf      
+    - family: Riffic
+      fonts:
+        - asset: assets/fonts/Riffic-Bold.ttf
+          weight: 700
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Italic.ttf
+        - asset: assets/fonts/OpenSans-BoldItalic.ttf
+          weight: 700     
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
